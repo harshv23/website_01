@@ -1,0 +1,36 @@
+/* Copyright 2017 Jackson Hayes */
+
+#navbar {
+    background-color: transparent;
+    box-shadow: none;
+    height: 148px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.brand-logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.brand-logo {
+    margin-top: 30px;
+}
+
+.navhover {
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 984px) {
+    .background-shape-1 {
+        opacity: 0.5;
+    }
+    .background-shape-2 {
+        opacity: 0.5;
+    }
+}
+.pcard-container {
+    padding-left: 5px;
+    padding-right: 5px;
+}

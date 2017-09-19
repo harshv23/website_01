@@ -1,247 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style='overflow-x: hidden'>
 
 <head>
+	<!-- Copyright 2017 Jackson Hayes -->
 
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	<link type="text/css" rel="stylesheet" href="css/index.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/navbar.css" media="screen,projection" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<meta property="og:title" content="Partyk Goworowski: I'm A Graphic Designer" />
-	<meta property="og:type" content="website" />
 	<title>Patryk Goworowski</title>
-	<style>
-		header {
-			text-align: center;
-			padding-top: 80px;
-		}
-
-		header>p {
-			font-size: x-large;
-			color: #45D1D1;
-			margin: 0;
-		}
-
-		footer {
-			margin-top: 24px;
-		}
-
-		.title {
-			text-align: center;
-			margin: 48px 0;
-			font-size: x-large;
-		}
-
-		.icon {
-			width: 100px;
-			height: 100px;
-		}
-
-		.chip {
-			background-color: #45D1D1 !important;
-		}
-
-		.page-footer {
-			background-color: #45D1D1 !important;
-		}
-
-		.footer-copyright {
-			background-color: #297D7D !important;
-		}
-
-		.card-panel {
-			background-color: #45D1D1 !important;
-		}
-
-		.chip {
-			waves-effect: #45D1D1 !important;
-		}
-
-		.my-text {
-			color: #323133 !important;
-		}
-
-		.y-text {
-			color: #45D1D1 !important;
-		}
-
-		.card-panel {
-			color: #45D1D1 !important;
-		}
-
-		.card-action>a {
-			color: #45D1D1 !important;
-		}
-
-		#nav-header {
-			width: 100%;
-		}
-
-		.nav-wrapper {
-			background-color: #45D1D1 !important;
-		}
-
-		.card {
-			width: 300px;
-			margin: 8px;
-			display: inline-block;
-		}
-
-		#profile {
-			height: 200px;
-		}
-
-		#work {
-			width: 316px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		@media(min-width: 730px) {
-			#work {
-				width: 636px;
-			}
-		}
-	</style>
-	<meta name="theme-color" content="#45D1D1" />
-	<meta property="og:description" content="I'm Patryk Goworowski A Graphic Designer!" />
-	<meta property="og:url" content="http://" />
-	<meta name="description" content="I'm Patryk Goworowski A Graphic Designer!" />
-	<meta name="author" content="Harsh v23" />
-	<meta name="keywords" content="Noizy icons , Cornie Icons , Icon Packs , Graphic designer , Material design , Patryk , Patryk Goworowski " />
 </head>
 
-<body>
-
-	<nav>
+<body style="font-family: ' Roboto ', sans-serif;">
+	<div class='background-shape-1'></div>
+	<div class='background-shape-2'></div>
+	<nav id='navbar'>
 		<div class="nav-wrapper">
-			<a href="#!" class="brand-logo center">Patryk</a>
-			<a href="#" data-activates="mobile-demo" class="button-collapse">
-				<i class="material-icons">menu</i>
-			</a>
+			<a href="index.html" class="brand-logo">
+                <img src="images/profile.png">
+            </a>
+			<a style='padding-top: 50px;' href="#" data-activates="mobile-demo" class="button-collapse"><i class="black-text material-icons">menu</i></a>
 
-			<ul class="right hide-on-med-and-down">
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="work-price.html">Work Price</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
+			<ul id="nav-mobile" class="right hide-on-med-and-down" style="font-family: 'Lato', sans-serif; padding-top: 40px;">
+				<li><a href="#" class='navhover' style='font-size: 1rem;'><b>PORTFOLIO</b></a></li>
+				<li><a href="pricing.html" class='navhover' style='font-size: 1rem'><b>PRICING</b></a></li>
+				<li><a href="contact.html" class='navhover' style='font-size: 1rem'><b>CONTACT</b></a></li>
+
 			</ul>
-
 			<ul class="side-nav" id="mobile-demo">
-				<div class="img-view"><img id="nav-header" src="images/8.png"></div>
+				<div class="img-view"><img src="http://patryk.gq/images/8.png" width="300" height="160"> </div>
+				<li class='active'><a href="#" style='font-size: 1rem;'><b>PORTFOLIO</b></a></li>
+				<li><a href="pricing.html" style='font-size: 1rem'><b>PRICING</b></a></li>
+				<li><a href="contact.html" style='font-size: 1rem'><b>CONTACT</b></a></li>
 				<li>
-					<a class="waves-effect waves-teal" href="index.html">
-						<i class="material-icons">account_balance</i>
-						Home
-					</a>
+					<p>Web design</p>
 				</li>
-				<li>
-					<a class="waves-effect waves-teal" href="work-price.html">
-						<i class="material-icons">question_answer</i>
-						Work Price
-					</a>
-				</li>
-				<li>
-					<a class="waves-effect waves-teal" href="contact.html">
-						<i class="material-icons">perm_phone_msg</i>
-						Contact
-					</a>
-				</li>
+
 			</ul>
 		</div>
 	</nav>
+	<main>
+		<div class='row'>
+			<div class='col s12'>
 
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+				<div class='hide-on-med-and-down' style='margin-top: 80px; margin-left: 40px;'>
+					<h3 style=''>
+                        My name is <b>Patryk Goworowski.</b><br> I am a graphic designer.
+                    </h3><a href="contact.html" class="hero-btn-1 btn-large center-align z-depth-0"><b>Get in touch</b></a>
+					<a href="pricing.html" class="hero-btn-2 btn-large center-align z-depth-0"><b>Pricing</b></a></div>
+				<div class='hide-on-large-only center-align' style='z-index: 3; margin-top: 80px;'>
+					<div id="mobileBackground">
+						<h3 class='center-align'>
+                        My name is <b>Patryk Goworowski.</b><br> I am a graphic designer.
+                    </h3></div>
+					<a href="contact.html" class="hero-btn-1 btn-large center-align z-depth-0"><b>Get in touch</b></a>
+					<a href="pricing.html" class="hero-btn-2-mobile btn-large center-align z-depth-0"><b>Pricing</b></a></div>
+
+
+			</div>
+		</div>
+
+
+		<div class='row' style='margin-top: 80px;'>
+			<div class='col s12'>
+				<div class='row'>
+					<div class='col s12 m6 l3'>
+						<div class='pcard-container'>
+
+							<div class="card z-depth-5 pcard">
+								<img src="images/cornie.png" class="pcard-image">
+								<div class="card-content center">
+									<span class="center card-title" style='padding-bottom: 10px;'>Cornie Icons</span>
+									<p>Cornie is a Material Design icon pack, handcrafted with love to make it look unique.</p>
+									<a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&hl=en"><b>DOWNLOAD</b></a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class='col s12 m6 l3'>
+						<div class='pcard-container'>
+
+							<div class="card z-depth-5 pcard">
+								<img src='images/noizy.png' class='pcard-image'>
+								<div class="card-content center">
+									<span class="center card-title" style='padding-bottom: 10px;'>Noizy Icons</span>
+									<p>Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons.</p>
+									<a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=pl.patrykgoworowski.noizyicons&hl=en"><b>DOWNLOAD</b></a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class='col s12 m6 l3'>
+						<div class='pcard-container'>
+
+							<div class="card z-depth-5 pcard">
+								<img src='https://lh3.googleusercontent.com/jFInFLIjR1ok6KVfJAFE95s-xT2BZ5ZSsHfANZfafYeQ5BOXvdo7uA5Lqlmp-gqgw_A=w300-rw' class='pcard-image'>
+								<div class="card-content center">
+									<span class="center card-title" style='padding-bottom: 10px;'>Push-Ups Graphics</span>
+									<p>I created the intro screen graphics for Maximillian Keppler's Push-Ups app.</p>
+									<div class='center'><a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=com.mk.push"><b>DOWNLOAD</b></a></div>
+
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+					<div class='col s12 m6 l3'>
+						<div class='pcard-container'>
+
+							<div class="card z-depth-5 pcard">
+								<img src='images/readit.png' class='pcard-image' style='padding: 10px;'>
+								<div class="card-content center">
+									<span class="center card-title" style='padding-bottom: 10px;'>ReadIt Graphics</span>
+									<p>I created the product icon and app graphics for Krystian Drozdzynski's ReadIt app.</p>
+									<a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=me.drozdzynski.readit"><b>DOWNLOAD</b></a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</main>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script>
-		$(".button-collapse").sideNav();
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+		})
 	</script>
 
-	<header>
-		<img id="profile" src="images/1.png">
-		<p>My name is <b>Patryk Goworowski</b></p>
-		<p>I'm a Graphic designer</p>
-		<br>
-		<a href="contact.html">
-			<div class="chip white-text ">Get in Touch</div>
-		</a>
-		<a href="work-price.html">
-			<div class="chip white-text ">My Work Offers</div>
-		</a>
-	</header>
-
-	<div class="row card-panel title">
-		<span class="white-text">My Work</span>
-	</div>
-	<div id="work">
-		<div class="card hoverable header center ">
-			<div class="card-content center ">
-				<img class="responsive-img icon" src="images/2.png">
-				<h5 class="card-title center ">
-										<b>CORNIE ICONS</b>
-									</h5>
-				<p class="flow-text light ">Cornie is a Material Design icon pack. Handcrafted with love to make it look unique.!</p>
-			</div>
-			<div class="card-action center ">
-				<a href="cornie.html">View</a>
-			</div>
-		</div>
-
-	<div class="card hoverable header center ">
-		<div class="card-content center ">
-			<img class="responsive-img icon" src="images/3.png">
-			<h5 class="card-title center"><b>NOIZY ICONS</b></h5>
-			<p class="flow-text light ">Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons. </p>
-		</div>
-		<div class="card-action center ">
-			<a href="noizy.html">View</a>
-		</div>
-	</div>
-
-	<div class="card hoverable header center ">
-		<div class="card-content center ">
-			<img class="responsive-img icon" src="images/5.png">
-			<h5 class="card-title center "><b>PUSH-UPS GRAPHICS</b></h5>
-			<p class="flow-text light ">I created the intro screen graphics for Maximillian Keppler's Push-Ups app.</p>
-		</div>
-		<div class="card-action center ">
-			<a href="pushups.html">View</a>
-		</div>
-	</div>
-
-	<div class="card hoverable header center ">
-		<div class="card-content center ">
-			<img class="responsive-img icon" src="images/4.png">
-			<h5 class="card-title center"><b>READIT GRAPHICS</b></h5>
-			<p class="flow-text light ">I created the product icon and app grapics for Krystian Drozdzynski's Readlt app.</p>
-		</div>
-		<div class="card-action center">
-			<a href="readit.html">View</a>
-		</div>
-	</div>
-	</div>
-	</div>
-
-	<!--Import jQuery before materialize.js-->
-	<script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-	<script type="text/javascript " src="js/materialize.min.js "></script>
-
-	<footer class="page-footer ">
-		<div class="footer-copyright center ">
-			<a class="grey-text text-lighten-4 " href="http://www.harshv23.tk ">&copy;2017 Website made by Harsh V23</a>
-		</div>
-		</div>
-	</footer>
 </body>
 
 </html>

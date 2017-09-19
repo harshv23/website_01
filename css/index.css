@@ -1,0 +1,126 @@
+/* Copyright 2017 Jackson Hayes */
+
+.background-shape-1 {
+    height: 600px;
+    width: 900px;
+    background-color: #45d2d2;
+    z-index: -2;
+    position: fixed;
+    border-radius: 80px;
+    right: -100px;
+    top: -450px;
+    transform: rotate(45deg);
+}
+
+.background-shape-2 {
+    height: 600px;
+    width: 1000px;
+    background-color: #78e1e1;
+    z-index: -3;
+    position: fixed;
+    right: -400px;
+    top: -400px;
+    transform: rotate(45deg)
+}
+
+.hero-btn-1 {
+    background-color: #45d2d2;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    text-transform: none;
+    z-index: 1;
+}
+
+.hero-btn-1:hover {
+    background-color: #78e1e1;
+    color: #ffffff;
+}
+
+.hero-btn-2 {
+    background-color: transparent;
+    border: 2px solid #45d2d2;
+    color: #45d2d2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    border-radius: 50px;
+    text-transform: none;
+    z-index: 1;
+}
+
+.hero-btn-2-mobile {
+    background-color: #ffffff;
+    border: 2px solid #45d2d2;
+    color: #45d2d2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 50px;
+    text-transform: none;
+    z-index: 3;
+}
+
+.hero-btn-2:hover {
+    background-color: #45d2d2;
+    color: #ffffff;
+}
+.hero-btn-2-mobile:hover {
+    background-color: #45d2d2;
+    color: #ffffff;
+}
+
+.pcard {
+    padding-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 10px
+}
+
+.pcard-image {
+    display: block;
+    z-index: 1;
+    height: 148px;
+    width: auto;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.pcard-btn {
+    font-size: .9rem;
+    background-color: transparent;
+    border: 2px solid #45d2d2;
+    color: #45d2d2;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    text-transform: none;
+    display: inline-block;
+}
+
+.pcard-btn:hover {
+    background-color: #45d2d2;
+    color: #ffffff;
+}
+
+.pcard-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 1105px) {
+    .pcard-btn {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .pcard-btn {
+        font-size: .9rem;
+    }
+}
+
+#mobileBackground {
+    padding-left: 2px;
+    padding-right: 2px;
+}
