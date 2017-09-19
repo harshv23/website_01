@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -15,6 +15,32 @@
 	<meta property="og:type" content="website" />
 	<title>Patryk Goworowski</title>
 	<style>
+		header {
+			text-align: center;
+			padding-top: 80px;
+		}
+
+		header>p {
+			font-size: x-large;
+			color: #45D1D1;
+			margin: 0;
+		}
+
+		footer {
+			margin-top: 24px;
+		}
+
+		.title {
+			text-align: center;
+			margin: 48px 0;
+			font-size: x-large;
+		}
+
+		.icon {
+			width: 100px;
+			height: 100px;
+		}
+
 		.chip {
 			background-color: #45D1D1 !important;
 		}
@@ -47,48 +73,92 @@
 			color: #45D1D1 !important;
 		}
 
+		.card-action>a {
+			color: #45D1D1 !important;
+		}
+
+		#nav-header {
+			width: 100%;
+		}
+
 		.nav-wrapper {
 			background-color: #45D1D1 !important;
 		}
 
 		.card {
 			width: 300px;
+			margin: 8px;
+			display: inline-block;
+		}
+
+		#profile {
+			height: 200px;
+		}
+
+		#work {
+			width: 316px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@media(min-width: 730px) {
+			#work {
+				width: 636px;
+			}
 		}
 	</style>
-	<meta property="og:description" content="I'm Patryk Goworowski A Graphic Designer !" />
+	<meta name="theme-color" content="#45D1D1" />
+	<meta property="og:description" content="I'm Patryk Goworowski A Graphic Designer!" />
 	<meta property="og:url" content="http://" />
-	<meta name="description" content="I'm Patryk Goworowski A Graphic Designer !" />
+	<meta name="description" content="I'm Patryk Goworowski A Graphic Designer!" />
 	<meta name="author" content="Harsh v23" />
 	<meta name="keywords" content="Noizy icons , Cornie Icons , Icon Packs , Graphic designer , Material design , Patryk , Patryk Goworowski " />
 </head>
 
-<meta name="theme-color" content="#45D1D1" />
-
 <body>
 
-
-
 	<nav>
-		<div class="nav-wrapper ">
+		<div class="nav-wrapper">
 			<a href="#!" class="brand-logo center">Patryk</a>
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			<ul class="right hide-on-med-and-down">
+			<a href="#" data-activates="mobile-demo" class="button-collapse">
+				<i class="material-icons">menu</i>
+			</a>
 
-				<li><a href="index.html">Home</a></li>
-				<li><a href="work-price.html">Work Price</a></li>
-				<li><a href="contact.html">Contact</a></li>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="work-price.html">Work Price</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
 			</ul>
 
 			<ul class="side-nav" id="mobile-demo">
-
-				<div class="img-view"><img src="images/8.png" width=300 height=160></div>
-				<li><a class="waves-effect waves-teal" <a href="index.html"><i class="material-icons">account_balance</i>Home</a></li>
-				<li><a class="waves-effect waves-teal" <a href="work-price.html"><i class="material-icons">question_answer</i>Work Price</a></li>
-				<li><a class="waves-effect waves-teal" <a href="contact.html"><i class="material-icons">perm_phone_msg</i>Contact</a></li>
+				<div class="img-view"><img id="nav-header" src="images/8.png"></div>
+				<li>
+					<a class="waves-effect waves-teal" href="index.html">
+						<i class="material-icons">account_balance</i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a class="waves-effect waves-teal" href="work-price.html">
+						<i class="material-icons">question_answer</i>
+						Work Price
+					</a>
+				</li>
+				<li>
+					<a class="waves-effect waves-teal" href="contact.html">
+						<i class="material-icons">perm_phone_msg</i>
+						Contact
+					</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
-
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<!-- Compiled and minified JavaScript -->
@@ -97,125 +167,81 @@
 		$(".button-collapse").sideNav();
 	</script>
 
+	<header>
+		<img id="profile" src="images/1.png">
+		<p>My name is <b>Patryk Goworowski</b></p>
+		<p>I'm a Graphic designer</p>
+		<br>
+		<a href="contact.html">
+			<div class="chip white-text ">Get in Touch</div>
+		</a>
+		<a href="work-price.html">
+			<div class="chip white-text ">My Work Offers</div>
+		</a>
+	</header>
 
-	<center>
-		<img src="images/1.png" style="padding-top: 80px;" height="290">
-	</center>
-	<center>
-		<font size="5 " Color="#45D1D1 " align="center ">My name is <b>Patryk Goworowski</b></font>
-	</center>
-	<center>
-		<font size="5 " Color="#45D1D1 " align="center ">I'm a Graphic designer</font>
-		<center>
-
-			<font size="18" Color="#45D1D1 " align="center"></font>
-			<a href="contact.html">
-				<div class="chip white-text ">Get in Touch </div>
-			</a>
-			<a href="work-price.html">
-				<div class="chip white-text ">My Work Offers</div>
-			</a>
-
-
-
-			<div class="row " style="padding-top: 80px;">
-					<div class="card-panel ">
-						<span class="white-text "><font size="5 ">My Work</font></span>
-					</div>
+	<div class="row card-panel title">
+		<span class="white-text">My Work</span>
+	</div>
+	<div id="work">
+		<div class="card hoverable header center ">
+			<div class="card-content center ">
+				<img class="responsive-img icon" src="images/2.png">
+				<h5 class="card-title center ">
+										<b>CORNIE ICONS</b>
+									</h5>
+				<p class="flow-text light ">Cornie is a Material Design icon pack. Handcrafted with love to make it look unique.!</p>
 			</div>
-
-
-
-			<div class="container" style="padding-top: 0px;">
-				<div class="row">
-
-					<div class="col s12 m6 ">
-						<div class="card hoverable header center ">
-							<div class="card-content center ">
-								<center>
-									<img class="responsive-img " src="images/2.png " height="100px " width="100px " />
-									<center/>
-									<h5 class="card-title center "><b>CORNIE ICONS</b></h5>
-									<p class="flow-text light ">Cornie is a Material Design icon pack. Handcrafted with love to make it look unique.!</p>
-							</div>
-							<div class="card-action center ">
-								<a href="cornie.html " style="color: #45D1D1; margin-right: 0px; ">View</a> </div>
-							<div> </div>
-						</div>
-					</div>
-
-
-					<div class="col s12 m6 ">
-						<div class="card hoverable header center ">
-							<div class="card-content center ">
-								<center>
-									<img class="responsive-img " src="images/3.png " height="100px " width="100px " />
-									<center/>
-									<h5 class="card-title center "><b>NOIZY ICONS</b></h5>
-									<p class="flow-text light ">Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons. </p>
-							</div>
-							<div class="card-action center ">
-								<a href="noizy.html " style="color: #45D1D1; margin-right: 0px; ">View</a> </div>
-						</div>
-					</div>
-				</div>
+			<div class="card-action center ">
+				<a href="cornie.html">View</a>
 			</div>
-			</div>
-			</div>
+		</div>
 
+	<div class="card hoverable header center ">
+		<div class="card-content center ">
+			<img class="responsive-img icon" src="images/3.png" />
+			<h5 class="card-title center"><b>NOIZY ICONS</b></h5>
+			<p class="flow-text light ">Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons. </p>
+		</div>
+		<div class="card-action center ">
+			<a href="noizy.html">View</a>
+		</div>
+	</div>
 
+	<div class="card hoverable header center ">
+		<div class="card-content center ">
+			<img class="responsive-img icon" src="images/5.png" />
+			<h5 class="card-title center "><b>PUSH-UPS GRAPHICS</b></h5>
+			<p class="flow-text light ">I created the intro screen graphics for Maximillian Keppler's Push-Ups app.</p>
+		</div>
+		<div class="card-action center ">
+			<a href="pushups.html">View</a>
+		</div>
+	</div>
 
-			<div class="container " style="padding-top: 0px; ">
-				<div class="row ">
+	<div class="card hoverable header center ">
+		<div class="card-content center ">
+			<img class="responsive-img icon" src="images/4.png " />
+			<h5 class="card-title center"><b>READIT GRAPHICS</b></h5>
+			<p class="flow-text light ">I created the product icon and app grapics for Krystian Drozdzynski's Readlt app.</p>
+		</div>
+		<div class="card-action center">
+			<a href="readit.html">View</a>
+		</div>
+	</div>
+	</div>
+	</div>
 
-					<div class="col s12 m6 ">
-						<div class="card hoverable header center ">
-							<div class="card-content center ">
-								<center>
-									<img class="responsive-img " src="images/5.png " height="100px " width="100px " />
-									<center/>
-									<h5 class="card-title center "><b>PUSH-UPS GRAPHICS</b></h5>
-									<p class="flow-text light ">I created the intro screen graphics for Maximillian Keppler's Push-Ups app.</p>
-							</div>
-							<div class="card-action center ">
-								<a href="pushups.html " style="color: #45D1D1; margin-right: 0px; ">View</a> </div>
-						</div>
-					</div>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+	<script type="text/javascript " src="js/materialize.min.js "></script>
 
-
-					<div class="col s12 m6 ">
-						<div class="card hoverable header center ">
-							<div class="card-content center ">
-								<center>
-									<img class="responsive-img " src="images/4.png " height="90px " width="90px " />
-									<center/>
-									<h5 class="card-title center "><b>READIT GRAPHICS</b></h5>
-									<p class="flow-text light ">I created the product icon and app grapics for Krystian Drozdzynski's Readlt app.</p>
-							</div>
-							<div class="card-action center ">
-								<a href="readit.html " style="color: #45D1D1; margin-right: 0px; ">View</a> </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-			</div>
-
-
-
-			<!--Import jQuery before materialize.js-->
-			<script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-			<script type="text/javascript " src="js/materialize.min.js "></script>
-
-
-
-			<footer class="page-footer ">
-				<div class="footer-copyright center ">
-					<a class="grey-text text-lighten-4 " href="http://www.harshv23.tk ">©2017 Website made by Harsh V23</a>
-				</div>
-				</div>
-			</footer>
-
+	<footer class="page-footer ">
+		<div class="footer-copyright center ">
+			<a class="grey-text text-lighten-4 " href="http://www.harshv23.tk ">&copy;2017 Website made by Harsh V23</a>
+		</div>
+		</div>
+	</footer>
 </body>
 
 </html>
