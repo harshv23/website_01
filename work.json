@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Cornie Icons",
-		"description": "Cornie is a Material Design icon pack. Handcrafted with love to make it look unique!",
-		"icon": "images/2.png",
+		"description": "Cornie is a Material Design icon pack, handcrafted with love to make it look unique.",
+		"icon": "images/cornie.png",
 		"links": [
 
 		],
@@ -13,7 +13,7 @@
 	{
 		"name": "Noizy Icons",
 		"description": "Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons.",
-		"icon": "images/3.png",
+		"icon": "images/noizy.png",
 		"links": [
 
 		],
@@ -24,7 +24,7 @@
 	{
 		"name": "Push-Ups Graphics",
 		"description": "I created the intro screen graphics for Maximillian Keppler's Push-Ups app.",
-		"icon": "images/5.png",
+		"icon": "images/pushups.png",
 		"links": [
 
 		],
@@ -35,7 +35,7 @@
 	{
 		"name": "ReadIt Graphics",
 		"description": "I created the product icon and app graphics for Krystian Drozdzynski's ReadIt app.",
-		"icon": "images/4.png",
+		"icon": "images/readit.png",
 		"links": [
 
 		],
