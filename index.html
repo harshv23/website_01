@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style='overflow-x: hidden'>
+<html lang="en">
 
 <head>
 	<!-- Copyright 2017 Jackson Hayes -->
@@ -18,14 +18,12 @@
 	<title>Patryk Goworowski</title>
 </head>
 
-<body style="font-family: ' Roboto ', sans-serif;">
+<body style="overflow-x: hidden;">
 	<div class='background-shape-1'></div>
 	<div class='background-shape-2'></div>
 	<nav id='navbar'>
 		<div class="nav-wrapper">
-			<a href="index.html" class="brand-logo">
-                <img src="images/profile.png">
-            </a>
+			<a href="index.html" class="brand-logo"><img src="images/profile.png"></a>
 			<a style='padding-top: 50px;' href="#" data-activates="mobile-demo" class="button-collapse"><i class="black-text material-icons">menu</i></a>
 
 			<ul id="nav-mobile" class="right hide-on-med-and-down" style="font-family: 'Lato', sans-serif; padding-top: 40px;">
@@ -70,68 +68,7 @@
 
 		<div class='row' style='margin-top: 80px;'>
 			<div class='col s12'>
-				<div class='row'>
-					<div class='col s12 m6 l3'>
-						<div class='pcard-container'>
-
-							<div class="card z-depth-5 pcard">
-								<img src="images/cornie.png" class="pcard-image">
-								<div class="card-content center">
-									<span class="center card-title" style='padding-bottom: 10px;'>Cornie Icons</span>
-									<p>Cornie is a Material Design icon pack, handcrafted with love to make it look unique.</p>
-									<a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons&hl=en"><b>DOWNLOAD</b></a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					<div class='col s12 m6 l3'>
-						<div class='pcard-container'>
-
-							<div class="card z-depth-5 pcard">
-								<img src='images/noizy.png' class='pcard-image'>
-								<div class="card-content center">
-									<span class="center card-title" style='padding-bottom: 10px;'>Noizy Icons</span>
-									<p>Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons.</p>
-									<a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=pl.patrykgoworowski.noizyicons&hl=en"><b>DOWNLOAD</b></a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					<div class='col s12 m6 l3'>
-						<div class='pcard-container'>
-
-							<div class="card z-depth-5 pcard">
-								<img src='https://lh3.googleusercontent.com/jFInFLIjR1ok6KVfJAFE95s-xT2BZ5ZSsHfANZfafYeQ5BOXvdo7uA5Lqlmp-gqgw_A=w300-rw' class='pcard-image'>
-								<div class="card-content center">
-									<span class="center card-title" style='padding-bottom: 10px;'>Push-Ups Graphics</span>
-									<p>I created the intro screen graphics for Maximillian Keppler's Push-Ups app.</p>
-									<div class='center'><a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=com.mk.push"><b>DOWNLOAD</b></a></div>
-
-								</div>
-
-
-							</div>
-						</div>
-					</div>
-					<div class='col s12 m6 l3'>
-						<div class='pcard-container'>
-
-							<div class="card z-depth-5 pcard">
-								<img src='images/readit.png' class='pcard-image' style='padding: 10px;'>
-								<div class="card-content center">
-									<span class="center card-title" style='padding-bottom: 10px;'>ReadIt Graphics</span>
-									<p>I created the product icon and app graphics for Krystian Drozdzynski's ReadIt app.</p>
-									<a class="pcard-btn btn center-align z-depth-0" href="https://play.google.com/store/apps/details?id=me.drozdzynski.readit"><b>DOWNLOAD</b></a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
+				<div class='row' id="work"></div>
 			</div>
 		</div>
 	</main>
@@ -142,6 +79,25 @@
 		$(document).ready(function() {
 			$(".button-collapse").sideNav();
 		})
+	</script>
+
+	<script>
+		var work = document.getElementById("work");
+		var workRequest = new XMLHttpRequest();
+		workRequest.open("GET", "https://harshv23.github.io/website_01/work.json", true); //CHANGE URL BEFORE PUBLISHING
+		workRequest.onreadystatechange = function() {
+			if (workRequest.readyState === 4) {
+				if (workRequest.status === 200 || workRequest.status == 0) {
+					var html = "";
+					JSON.parse(workRequest.responseText).forEach(function(work) {
+						console.log(work.name);
+						html += "<div class=\"col s12 m6 l3\"><div class=\'pcard-container\'><div class=\"card z-depth-5 pcard\"><img src=\'" + work.icon + "\' class=\'pcard-image\' style=\'padding: 10px;\'><div class=\"card-content center\"><span class=\"center card-title\" style='padding-bottom: 10px;'>" + work.name + "</span><p>" + work.description + "</p><a class=\"pcard-btn btn center-align z-depth-0\" href=\"\"><b>View</b></a></div></div></div></div>";
+					});
+					work.innerHTML = html;
+				}
+			}
+		};
+		workRequest.send(null);
 	</script>
 
 </body>
