@@ -10,7 +10,22 @@
 			}
 		],
 		"previews": [
-
+			{
+				"name": "Folders",
+				"image": "images/cornie-1.png"
+			},
+			{
+				"name": "Apps",
+				"image": "images/cornie-2.png"
+			},
+			{
+				"name": "Google",
+				"image": "images/cornie-3.png"
+			},
+			{
+				"name": "Games",
+				"image": "images/cornie-4.png"
+			}
 		]
 	},
 	{
@@ -24,7 +39,22 @@
 			}
 		],
 		"previews": [
-
+			{
+				"name": "Apps",
+				"image": "images/noizy-1.png"
+			},
+			{
+				"name": "Folders",
+				"image": "images/noizy-2.png"
+			},
+			{
+				"name": "System",
+				"image": "images/noizy-3.png"
+			},
+			{
+				"name": "Google",
+				"image": "images/noizy-4.png"
+			}
 		]
 	},
 	{
@@ -38,7 +68,22 @@
 			}
 		],
 		"previews": [
-
+			{
+				"name": "Statistics",
+				"image": "images/pushups-1.png"
+			},
+			{
+				"name": "Expertise",
+				"image": "images/pushups-2.png"
+			},
+			{
+				"name": "Personal Record",
+				"image": "images/pushups-3.png"
+			},
+			{
+				"name": "Customization",
+				"image": "images/pushups-4.png"
+			}
 		]
 	},
 	{
@@ -52,7 +97,22 @@
 			}
 		],
 		"previews": [
-
+			{
+				"name": "Tutorial 1",
+				"image": "images/readit-1.png"
+			},
+			{
+				"name": "Tutorial 2",
+				"image": "images/readit-2.png"
+			},
+			{
+				"name": "Navigation Header",
+				"image": "images/readit-3.png"
+			},
+			{
+				"name": "Empty State",
+				"image": "images/readit-4.png"
+			}
 		]
 	}
 ]
