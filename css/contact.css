@@ -1,5 +1,20 @@
 /* Copyright 2017 Jackson Hayes */
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    animation-name: alphaIn;
+	  animation-duration: 0.5s;
+		animation-timing-function: ease-in;
+}
+
+@keyframes alphaIn {
+		from { opacity: 0; }
+		to { opacity: 1; }
+}
+
 .background-shape-1 {
     height: 600px;
     width: 900px;
