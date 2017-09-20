@@ -4,9 +4,12 @@
 		"description": "Cornie is a Material Design icon pack, handcrafted with love to make it look unique.",
 		"icon": "images/cornie.png",
 		"links": [
-
+			{
+				"name": "Play Store",
+				"url": "https://play.google.com/store/apps/details?id=pl.patrykgoworowski.cornieicons"
+			}
 		],
-		"screenshots": [
+		"previews": [
 
 		]
 	},
@@ -15,9 +18,12 @@
 		"description": "Noizy features rich effects, subtle gradients, a noisy shadow filter, and square based icons.",
 		"icon": "images/noizy.png",
 		"links": [
-
+			{
+				"name": "Play Store",
+				"url": "https://play.google.com/store/apps/details?id=pl.patrykgoworowski.noizyicons"
+			}
 		],
-		"screenshots": [
+		"previews": [
 
 		]
 	},
@@ -26,9 +32,12 @@
 		"description": "I created the intro screen graphics for Maximillian Keppler's Push-Ups app.",
 		"icon": "images/pushups.png",
 		"links": [
-
+			{
+				"name": "Play Store",
+				"url": "https://play.google.com/store/apps/details?id=com.mk.push"
+			}
 		],
-		"screenshots": [
+		"previews": [
 
 		]
 	},
@@ -37,9 +46,12 @@
 		"description": "I created the product icon and app graphics for Krystian Drozdzynski's ReadIt app.",
 		"icon": "images/readit.png",
 		"links": [
-
+			{
+				"name": "Play Store",
+				"url": "https://play.google.com/store/apps/details?id=me.drozdzynski.readit"
+			}
 		],
-		"screenshots": [
+		"previews": [
 
 		]
 	}
