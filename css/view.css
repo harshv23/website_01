@@ -1,0 +1,52 @@
+.nav-wrapper
+{ 
+background-color:  #45D1D1 !important; 
+}
+
+.card-icon 
+{ 
+display: block;
+ height: 114px; 
+width: 100px;  
+margin: auto;  
+padding-top: 20px; 
+} 
+
+.down-btn 
+{ 
+background-color:  #45D1D1 !important; 
+margin-top: 20px; 
+border-radius: 50px;
+}
+
+.main-card 
+{
+ margin-top: 20px; 
+}
+
+.card-title
+{
+padding-bottom: 10px;
+}
+
+.btn-floating
+{
+background-color:  #45D1D1 !important; 
+}	
+
+.screenshot-img
+{
+height: 600px;
+width: 	600px;
+}
+
+.page-footer
+{
+background-color:  #45D1D1 !important; 
+}
+
+.footer-copyright
+{
+background-color:  #297D7D !important; 
+}
+
