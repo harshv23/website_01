@@ -1,0 +1,91 @@
+.profile{
+	height: 290px;
+	width:  290px;
+	display: block;
+	margin: auto;
+	margin-top: 45px;
+}
+.nav-wrapper{ 
+	background-color:  #45D1D1 !important; 
+}
+.title{
+    font-size: 27px;
+    text-align: center;
+    color: #45D1D1;
+    margin-top: -5px;
+}
+.sub-title{
+    font-size: 25px;
+    text-align: center;
+    color: #45D1D1;
+    margin-top: -40px;
+}
+.chip{
+	background-color: #45D1D1;
+}
+.center-btn{
+    text-align: center;
+}
+.btn{
+	background-color: #45D1D1;
+	border-radius: 30px;
+}
+.ft{
+	text-align: center;
+}
+.page-footer{
+    background-color:  #45D1D1 !important; 
+}
+
+.footer-copyright{ 
+	background-color:  #297D7D !important; 
+}
+.footer-test{
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.pcard {
+    padding-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 10px
+}
+
+.pcard-image {
+    display: block;
+    z-index: 1;
+    height: 148px;
+    width: auto;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.pcard-btn {
+    font-size: .9rem;
+    background-color: transparent;
+    border: 2px solid #45d2d2;
+    color: #45d2d2;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    text-transform: none;
+    display: inline-block;
+}
+
+.pcard-btn:hover {
+    background-color: #45d2d2;
+    color: #ffffff;
+}
+
+.pcard-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+.main {
+    flex: 1 0 auto;
+  }
