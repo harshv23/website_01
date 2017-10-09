@@ -1,86 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
+  <!-- Copyright 2017 Harsh V23 -->
 <head>
-	<!-- Copyright 2017 Jackson Hayes -->
 
-	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-	<link type="text/css" rel="stylesheet" href="css/index.css" media="screen,projection" />
-	<link type="text/css" rel="stylesheet" href="css/navbar.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/home.css" media="screen,projection" />
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="Partyk Goworowski: I'm A Graphic Designer" />
+	<meta property="og:type" content="website" />
+	<meta name="theme-color" content="#45D1D1" />
+	<meta property="og:description" content="I'm Patryk Goworowski A Graphic Designer!" />
+	<meta property="og:url" content="http://" />
+	<meta name="description" content="I'm Patryk Goworowski A Graphic Designer!" />
+	<meta name="author" content="Harsh v23" />
+	<meta name="keywords" content="Noizy icons , Cornie Icons , Icon Packs , Graphic designer , Material design , Patryk , Patryk Goworowski " />
+
 	<title>Patryk Goworowski</title>
+
 </head>
 
-<body style="overflow-x: hidden;">
-	<div class='background-shape-1'></div>
-	<div class='background-shape-2'></div>
-	<nav id='navbar'>
+<body>
+
+	<nav>
 		<div class="nav-wrapper">
-			<a href="index.html" class="brand-logo"><img src="images/profile.png"></a>
-			<a style='padding-top: 50px;' href="#" data-activates="mobile-demo" class="button-collapse"><i class="black-text material-icons">menu</i></a>
+			<a href="#!" class="brand-logo center">Patryk</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse">
+				<i class="material-icons">menu</i>
+			</a>
 
-			<ul id="nav-mobile" class="right hide-on-med-and-down" style="font-family: 'Lato', sans-serif; padding-top: 40px;">
-				<li><a href="#" class='navhover' style='font-size: 1rem;'><b>PORTFOLIO</b></a></li>
-				<li><a href="pricing.html" class='navhover' style='font-size: 1rem'><b>PRICING</b></a></li>
-				<li><a href="contact.html" class='navhover' style='font-size: 1rem'><b>CONTACT</b></a></li>
-
-			</ul>
-			<ul class="side-nav" id="mobile-demo">
-				<div class="img-view"><img src="http://patryk.gq/images/8.png" width="300" height="160"> </div>
-				<li class='active'><a href="#" style='font-size: 1rem;'><b>PORTFOLIO</b></a></li>
-				<li><a href="pricing.html" style='font-size: 1rem'><b>PRICING</b></a></li>
-				<li><a href="contact.html" style='font-size: 1rem'><b>CONTACT</b></a></li>
+			<ul class="right hide-on-med-and-down">
 				<li>
-					<p>Web design</p>
+					<a href="index.html">Home</a>
 				</li>
+				<li>
+					<a href="work-price.html">Work Price</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
 
+			<ul class="side-nav" id="mobile-demo">
+				<div class="img-view"><img id="nav-header" class="responsive-img" src="images/8.png"></div>
+				<li>
+					<a class="waves-effect waves-teal" href="index.html">
+						<i class="material-icons">account_balance</i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a class="waves-effect waves-teal" href="work-price.html">
+						<i class="material-icons">question_answer</i>
+						Work Price
+					</a>
+				</li>
+				<li>
+					<a class="waves-effect waves-teal" href="contact.html">
+						<i class="material-icons">perm_phone_msg</i>
+						Contact
+					</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
-	<main>
-		<div class='row'>
-			<div class='col s12'>
 
-				<div class='hide-on-med-and-down' style='margin-top: 80px; margin-left: 40px;'>
-					<h3 style=''>
-                        My name is <b>Patryk Goworowski.</b><br> I am a graphic designer.
-                    </h3><a href="contact.html" class="hero-btn-1 btn-large center-align z-depth-0"><b>Get in touch</b></a>
-					<a href="pricing.html" class="hero-btn-2 btn-large center-align z-depth-0"><b>Pricing</b></a></div>
-				<div class='hide-on-large-only center-align' style='z-index: 3; margin-top: 80px;'>
-					<div id="mobileBackground">
-						<h3 class='center-align'>
-                        My name is <b>Patryk Goworowski.</b><br> I am a graphic designer.
-                    </h3></div>
-					<a href="contact.html" class="hero-btn-1 btn-large center-align z-depth-0"><b>Get in touch</b></a>
-					<a href="pricing.html" class="hero-btn-2-mobile btn-large center-align z-depth-0"><b>Pricing</b></a></div>
-
-
-			</div>
-		</div>
-
-
-		<div class='row' style='margin-top: 80px;'>
-			<div class='col s12'>
-				<div class='row' id="work"></div>
-			</div>
-		</div>
-	</main>
-	<!--Import jQuery before materialize.js-->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 	<script>
-		$(document).ready(function() {
-			$(".button-collapse").sideNav();
-		})
+		$(".button-collapse").sideNav();
 	</script>
 
+
+
+	<header>
+		<img id="profile" src="images/1.png" class="profile">
+		<p class="title">My name is <b>Patryk Goworowski</b></p>
+		<p class="sub-title">I'm a Graphic designer</p>
+         <div class="center-btn">
+          <a href="contact.html" class="waves-effect waves-light btn">Get in Toch</a>
+          <a href="work-price.html" class="waves-effect waves-light btn">Work offers</a>
+         </div>
+   	</header>
+
+<main>
 	<script>
 		var work = document.getElementById("work");
 		var workRequest = new XMLHttpRequest();
@@ -99,6 +106,18 @@
 		};
 		workRequest.send(null);
 	</script>
+
+</main>
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+	<script type="text/javascript " src="js/materialize.min.js "></script>
+
+	<footer class="page-footer ">
+		<div class="footer-copyright">
+			<a class="grey-text text-lighten-4 footer-test" href="http://www.harshv23.tk ">Website made by Harsh V23</a>
+		</div>
+	</footer>
 
 </body>
 
